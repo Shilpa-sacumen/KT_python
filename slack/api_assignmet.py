@@ -22,7 +22,7 @@ class Slack:
         self.logger.addHandler(self.handler)
 
         self.headers={
-             'Authorization':'Bearer xoxb-8245677746372-8236633617046-ZvJbsaXiboaCHScI3XQnAx44',
+             'Authorization':'token',
              "Content-type": "application/json",
              "Accept":"application/json",
         }
