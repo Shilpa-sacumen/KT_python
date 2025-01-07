@@ -4,16 +4,18 @@ import logging
 
 import requests
 
+import json
+
 
 class Slack:
     """slack class 
     """
-    def __init__(self):
+    def __init__(self,params):
         self.logger=logging.getLogger("my_logger")
 
         self.logger.setLevel(logging.DEBUG)
 
-        self.handler=logging.FileHandler("slack.log",mode="w")
+        self.handler=logging.FileHandler("slack.log",mode='w')
 
         self.formatter=logging.Formatter('%(process)d %(asctime)s %(name)s  %(levelname)s  %(message)s')
 
@@ -22,19 +24,23 @@ class Slack:
         self.logger.addHandler(self.handler)
 
         self.headers={
-             'Authorization':'token',
+             'Authorization':'Bearer token',
              "Content-type": "application/json",
              "Accept":"application/json",
         }
+
+        self.params=params
           
     def list_conversation(self):
         """method to list the coversations
         """
         try:
-            response=requests.get('https://slack.com/api/conversations.list',headers=self.headers,timeout=2)
+            response=requests.get('https://slack.com/api/conversations.list',headers=self.headers,timeout=2,params=self.params)
             response.raise_for_status()
             if response.ok:
-                self.logger.info(response.json())
+                data=response.json()
+                res=json.dumps(data,indent=4)
+                self.logger.info(res)
                 self.logger.info(response.status_code)
             else:
                 self.logger.info(f"Request got failed with status code {response.status_code}")
@@ -52,7 +58,9 @@ class Slack:
             response=requests.get('https://slack.com/api/users.list',headers=self.headers,timeout=(2,4))
             response.raise_for_status()
             if response.ok:
-                self.logger.info(response.json())
+                data=response.json()
+                res=json.dumps(data,indent=4)
+                self.logger.info(res)
                 self.logger.info(response.status_code)
             else:
                 self.logger.info(f"Request got failed with status code {response.status_code}")
@@ -65,7 +73,10 @@ class Slack:
     
 
 # create an object for class slack
-user_1=Slack()
+params={"limit":2,
+        
+        }
+user_1=Slack(params)
 
 
 #call list_conversation method from user_1 object

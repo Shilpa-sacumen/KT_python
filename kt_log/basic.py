@@ -7,13 +7,13 @@ import requests
 import json
 
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="%(process)d %(asctime)s %(levelname)s %(message)s",
-    datefmt="%Y-%m-%d -- %H:%M:%S",
+# logging.basicConfig(
+#     level=logging.DEBUG,
+#     format="%(process)d %(asctime)s %(levelname)s %(message)s",
+#     datefmt="%Y-%m-%d -- %H:%M:%S",
     
   
-)
+# )
 
 
 
@@ -43,9 +43,10 @@ headers={
 }
 
 #logg messages to test.log file using get method
-# response=requests.get('https://api.pagerduty.com/schedules/',headers=headers)
-# logger.info(response.status_code)
-# logger.debug(response.json())
+response=requests.get('https://api.pagerduty.com/schedules?limit=2&offset=2',headers=headers)
+logger.info(response.status_code)
+data=response.json()
+logger.info(json.dumps(data,indent=4))
 
 
 #logg response of post method to create a schedule

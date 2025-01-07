@@ -82,3 +82,209 @@
 20139 2025-01-03 09:33:21,498 my_logger INFO 204
 22495 2025-01-03 09:43:37,119 my_logger INFO 404
 22495 2025-01-03 09:43:37,120 my_logger DEBUG {'error': 'Not Found'}
+18913 2025-01-07 10:10:38,605 my_logger INFO 200
+18913 2025-01-07 10:10:38,605 my_logger DEBUG {'limit': 2, 'more': True, 'offset': 0, 'schedules': [{'description': 'Rotation schedule for Project1', 'escalation_policies': [], 'html_url': 'https://shilpa.pagerduty.com/schedules/PPKWUWL', 'id': 'PPKWUWL', 'name': 'Project1', 'self': 'https://api.pagerduty.com/schedules/PPKWUWL', 'summary': 'Project1', 'teams': [], 'time_zone': 'Etc/UTC', 'type': 'schedule', 'users': [{'html_url': 'https://shilpa.pagerduty.com/users/PASIKSM', 'id': 'PASIKSM', 'self': 'https://api.pagerduty.com/users/PASIKSM', 'summary': 'Shilpa GV', 'type': 'user_reference'}]}, {'description': 'Rotation schedule for Project3', 'escalation_policies': [], 'html_url': 'https://shilpa.pagerduty.com/schedules/P5BKT58', 'id': 'P5BKT58', 'name': 'Project3', 'self': 'https://api.pagerduty.com/schedules/P5BKT58', 'summary': 'Project3', 'teams': [], 'time_zone': 'Etc/UTC', 'type': 'schedule', 'users': [{'html_url': 'https://shilpa.pagerduty.com/users/PASIKSM', 'id': 'PASIKSM', 'self': 'https://api.pagerduty.com/users/PASIKSM', 'summary': 'Shilpa GV', 'type': 'user_reference'}]}], 'total': None}
+20413 2025-01-07 10:14:40,657 my_logger INFO 200
+20413 2025-01-07 10:14:40,658 my_logger DEBUG {
+    "limit": 2,
+    "more": true,
+    "offset": 0,
+    "schedules": [
+        {
+            "description": "Rotation schedule for Project1",
+            "escalation_policies": [],
+            "html_url": "https://shilpa.pagerduty.com/schedules/PPKWUWL",
+            "id": "PPKWUWL",
+            "name": "Project1",
+            "self": "https://api.pagerduty.com/schedules/PPKWUWL",
+            "summary": "Project1",
+            "teams": [],
+            "time_zone": "Etc/UTC",
+            "type": "schedule",
+            "users": [
+                {
+                    "html_url": "https://shilpa.pagerduty.com/users/PASIKSM",
+                    "id": "PASIKSM",
+                    "self": "https://api.pagerduty.com/users/PASIKSM",
+                    "summary": "Shilpa GV",
+                    "type": "user_reference"
+                }
+            ]
+        },
+        {
+            "description": "Rotation schedule for Project3",
+            "escalation_policies": [],
+            "html_url": "https://shilpa.pagerduty.com/schedules/P5BKT58",
+            "id": "P5BKT58",
+            "name": "Project3",
+            "self": "https://api.pagerduty.com/schedules/P5BKT58",
+            "summary": "Project3",
+            "teams": [],
+            "time_zone": "Etc/UTC",
+            "type": "schedule",
+            "users": [
+                {
+                    "html_url": "https://shilpa.pagerduty.com/users/PASIKSM",
+                    "id": "PASIKSM",
+                    "self": "https://api.pagerduty.com/users/PASIKSM",
+                    "summary": "Shilpa GV",
+                    "type": "user_reference"
+                }
+            ]
+        }
+    ],
+    "total": null
+}
+20557 2025-01-07 10:15:29,780 my_logger INFO 200
+20557 2025-01-07 10:15:29,781 my_logger DEBUG {
+    "limit": 2,
+    "more": true,
+    "offset": 2,
+    "schedules": [
+        {
+            "description": "Rotation schedule for Project4",
+            "escalation_policies": [],
+            "html_url": "https://shilpa.pagerduty.com/schedules/P22ZSSI",
+            "id": "P22ZSSI",
+            "name": "Project4",
+            "self": "https://api.pagerduty.com/schedules/P22ZSSI",
+            "summary": "Project4",
+            "teams": [],
+            "time_zone": "Etc/UTC",
+            "type": "schedule",
+            "users": [
+                {
+                    "html_url": "https://shilpa.pagerduty.com/users/PASIKSM",
+                    "id": "PASIKSM",
+                    "self": "https://api.pagerduty.com/users/PASIKSM",
+                    "summary": "Shilpa GV",
+                    "type": "user_reference"
+                }
+            ]
+        },
+        {
+            "description": "Rotation schedule for Project5",
+            "escalation_policies": [],
+            "html_url": "https://shilpa.pagerduty.com/schedules/PKLISD2",
+            "id": "PKLISD2",
+            "name": "Project5",
+            "self": "https://api.pagerduty.com/schedules/PKLISD2",
+            "summary": "Project5",
+            "teams": [],
+            "time_zone": "Etc/UTC",
+            "type": "schedule",
+            "users": [
+                {
+                    "html_url": "https://shilpa.pagerduty.com/users/PASIKSM",
+                    "id": "PASIKSM",
+                    "self": "https://api.pagerduty.com/users/PASIKSM",
+                    "summary": "Shilpa GV",
+                    "type": "user_reference"
+                }
+            ]
+        }
+    ],
+    "total": null
+}
+21771 2025-01-07 10:19:26,677 my_logger INFO 200
+21771 2025-01-07 10:19:26,677 my_logger INFO {
+    "limit": 2,
+    "more": true,
+    "offset": 2,
+    "schedules": [
+        {
+            "description": "Rotation schedule for Project4",
+            "escalation_policies": [],
+            "html_url": "https://shilpa.pagerduty.com/schedules/P22ZSSI",
+            "id": "P22ZSSI",
+            "name": "Project4",
+            "self": "https://api.pagerduty.com/schedules/P22ZSSI",
+            "summary": "Project4",
+            "teams": [],
+            "time_zone": "Etc/UTC",
+            "type": "schedule",
+            "users": [
+                {
+                    "html_url": "https://shilpa.pagerduty.com/users/PASIKSM",
+                    "id": "PASIKSM",
+                    "self": "https://api.pagerduty.com/users/PASIKSM",
+                    "summary": "Shilpa GV",
+                    "type": "user_reference"
+                }
+            ]
+        },
+        {
+            "description": "Rotation schedule for Project5",
+            "escalation_policies": [],
+            "html_url": "https://shilpa.pagerduty.com/schedules/PKLISD2",
+            "id": "PKLISD2",
+            "name": "Project5",
+            "self": "https://api.pagerduty.com/schedules/PKLISD2",
+            "summary": "Project5",
+            "teams": [],
+            "time_zone": "Etc/UTC",
+            "type": "schedule",
+            "users": [
+                {
+                    "html_url": "https://shilpa.pagerduty.com/users/PASIKSM",
+                    "id": "PASIKSM",
+                    "self": "https://api.pagerduty.com/users/PASIKSM",
+                    "summary": "Shilpa GV",
+                    "type": "user_reference"
+                }
+            ]
+        }
+    ],
+    "total": null
+}
+22021 2025-01-07 10:22:13,314 my_logger INFO 200
+22021 2025-01-07 10:22:13,315 my_logger INFO {
+    "limit": 2,
+    "more": true,
+    "offset": 2,
+    "schedules": [
+        {
+            "description": "Rotation schedule for Project4",
+            "escalation_policies": [],
+            "html_url": "https://shilpa.pagerduty.com/schedules/P22ZSSI",
+            "id": "P22ZSSI",
+            "name": "Project4",
+            "self": "https://api.pagerduty.com/schedules/P22ZSSI",
+            "summary": "Project4",
+            "teams": [],
+            "time_zone": "Etc/UTC",
+            "type": "schedule",
+            "users": [
+                {
+                    "html_url": "https://shilpa.pagerduty.com/users/PASIKSM",
+                    "id": "PASIKSM",
+                    "self": "https://api.pagerduty.com/users/PASIKSM",
+                    "summary": "Shilpa GV",
+                    "type": "user_reference"
+                }
+            ]
+        },
+        {
+            "description": "Rotation schedule for Project5",
+            "escalation_policies": [],
+            "html_url": "https://shilpa.pagerduty.com/schedules/PKLISD2",
+            "id": "PKLISD2",
+            "name": "Project5",
+            "self": "https://api.pagerduty.com/schedules/PKLISD2",
+            "summary": "Project5",
+            "teams": [],
+            "time_zone": "Etc/UTC",
+            "type": "schedule",
+            "users": [
+                {
+                    "html_url": "https://shilpa.pagerduty.com/users/PASIKSM",
+                    "id": "PASIKSM",
+                    "self": "https://api.pagerduty.com/users/PASIKSM",
+                    "summary": "Shilpa GV",
+                    "type": "user_reference"
+                }
+            ]
+        }
+    ],
+    "total": null
+}
