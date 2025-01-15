@@ -1,4 +1,4 @@
-21568 2025-01-07 10:18:01,279 my_logger  INFO  {
+46777 2025-01-15 17:36:05,388 my_logger  INFO  {
     "ok": true,
     "channels": [
         {
@@ -97,14 +97,216 @@
             },
             "previous_names": [],
             "num_members": 4
+        },
+        {
+            "id": "C087HR3700Z",
+            "name": "social",
+            "is_channel": true,
+            "is_group": false,
+            "is_im": false,
+            "is_mpim": false,
+            "is_private": false,
+            "created": 1735880202,
+            "is_archived": false,
+            "is_general": false,
+            "unlinked": 0,
+            "name_normalized": "social",
+            "is_shared": false,
+            "is_org_shared": false,
+            "is_pending_ext_shared": false,
+            "pending_shared": [],
+            "context_team_id": "T0877KXMYAY",
+            "updated": 1735880205570,
+            "parent_conversation": null,
+            "creator": "U087TURK6L8",
+            "is_ext_shared": false,
+            "shared_team_ids": [
+                "T0877KXMYAY"
+            ],
+            "pending_connected_team_ids": [],
+            "is_member": false,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": 0
+            },
+            "purpose": {
+                "value": "Other channels are for work. This one\u2019s just for fun. Get to know your teammates and show your lighter side. \ud83c\udf88",
+                "creator": "U087TURK6L8",
+                "last_set": 1735880202
+            },
+            "properties": {
+                "canvas": {
+                    "file_id": "F08729HC1T7",
+                    "is_empty": false,
+                    "quip_thread_id": "MZB9AAoJ7No"
+                },
+                "use_case": "random"
+            },
+            "previous_names": [],
+            "num_members": 4
         }
     ],
     "response_metadata": {
-        "next_cursor": "dGVhbTpDMDg3SFIzNzAwWg=="
+        "next_cursor": ""
     }
 }
-21568 2025-01-07 10:18:01,280 my_logger  INFO  200
-21568 2025-01-07 10:18:01,893 my_logger  INFO  {
+46777 2025-01-15 17:36:05,388 my_logger  INFO  200
+46777 2025-01-15 17:36:05,856 my_logger  INFO  {
+    "ok": true,
+    "channels": [
+        {
+            "id": "C086YFZ9DDL",
+            "name": "all-shilpa",
+            "is_channel": true,
+            "is_group": false,
+            "is_im": false,
+            "is_mpim": false,
+            "is_private": false,
+            "created": 1735880201,
+            "is_archived": false,
+            "is_general": true,
+            "unlinked": 0,
+            "name_normalized": "all-shilpa",
+            "is_shared": false,
+            "is_org_shared": false,
+            "is_pending_ext_shared": false,
+            "pending_shared": [],
+            "context_team_id": "T0877KXMYAY",
+            "updated": 1735880230018,
+            "parent_conversation": null,
+            "creator": "U087TURK6L8",
+            "is_ext_shared": false,
+            "shared_team_ids": [
+                "T0877KXMYAY"
+            ],
+            "pending_connected_team_ids": [],
+            "is_member": false,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": 0
+            },
+            "purpose": {
+                "value": "Share announcements and updates about company news, upcoming events or teammates who deserve some kudos. \u2b50",
+                "creator": "U087TURK6L8",
+                "last_set": 1735880201
+            },
+            "properties": {
+                "canvas": {
+                    "file_id": "F086YFZAKSA",
+                    "is_empty": false,
+                    "quip_thread_id": "DOF9AA4MjtB"
+                },
+                "use_case": "welcome"
+            },
+            "previous_names": [
+                "all-slack"
+            ],
+            "num_members": 4
+        },
+        {
+            "id": "C086YG1SQT0",
+            "name": "ktonpython",
+            "is_channel": true,
+            "is_group": false,
+            "is_im": false,
+            "is_mpim": false,
+            "is_private": false,
+            "created": 1735880293,
+            "is_archived": false,
+            "is_general": false,
+            "unlinked": 0,
+            "name_normalized": "ktonpython",
+            "is_shared": false,
+            "is_org_shared": false,
+            "is_pending_ext_shared": false,
+            "pending_shared": [],
+            "context_team_id": "T0877KXMYAY",
+            "updated": 1735880294610,
+            "parent_conversation": null,
+            "creator": "U087TURK6L8",
+            "is_ext_shared": false,
+            "shared_team_ids": [
+                "T0877KXMYAY"
+            ],
+            "pending_connected_team_ids": [],
+            "is_member": false,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": 0
+            },
+            "purpose": {
+                "value": "This channel is for everything #ktonpython. Hold meetings, share docs and make decisions together with your team.",
+                "creator": "U087TURK6L8",
+                "last_set": 1735880293
+            },
+            "properties": {
+                "canvas": {
+                    "file_id": "F08754QUKH8",
+                    "quip_thread_id": "bHF9AAsaCsz"
+                },
+                "use_case": "project"
+            },
+            "previous_names": [],
+            "num_members": 4
+        },
+        {
+            "id": "C087HR3700Z",
+            "name": "social",
+            "is_channel": true,
+            "is_group": false,
+            "is_im": false,
+            "is_mpim": false,
+            "is_private": false,
+            "created": 1735880202,
+            "is_archived": false,
+            "is_general": false,
+            "unlinked": 0,
+            "name_normalized": "social",
+            "is_shared": false,
+            "is_org_shared": false,
+            "is_pending_ext_shared": false,
+            "pending_shared": [],
+            "context_team_id": "T0877KXMYAY",
+            "updated": 1735880205570,
+            "parent_conversation": null,
+            "creator": "U087TURK6L8",
+            "is_ext_shared": false,
+            "shared_team_ids": [
+                "T0877KXMYAY"
+            ],
+            "pending_connected_team_ids": [],
+            "is_member": false,
+            "topic": {
+                "value": "",
+                "creator": "",
+                "last_set": 0
+            },
+            "purpose": {
+                "value": "Other channels are for work. This one\u2019s just for fun. Get to know your teammates and show your lighter side. \ud83c\udf88",
+                "creator": "U087TURK6L8",
+                "last_set": 1735880202
+            },
+            "properties": {
+                "canvas": {
+                    "file_id": "F08729HC1T7",
+                    "is_empty": false,
+                    "quip_thread_id": "MZB9AAoJ7No"
+                },
+                "use_case": "random"
+            },
+            "previous_names": [],
+            "num_members": 4
+        }
+    ],
+    "response_metadata": {
+        "next_cursor": ""
+    }
+}
+46777 2025-01-15 17:36:05,857 my_logger  INFO  200
+46777 2025-01-15 17:36:06,414 my_logger  INFO  {
     "ok": true,
     "members": [
         {
@@ -209,7 +411,7 @@
             "name": "rajendra.prasad",
             "deleted": false,
             "color": "e23f99",
-            "real_name": "Rajendra Prasad",
+            "real_name": "Rajendra",
             "tz": "Asia/Kolkata",
             "tz_label": "India Standard Time",
             "tz_offset": 19800,
@@ -217,10 +419,10 @@
                 "title": "",
                 "phone": "",
                 "skype": "",
-                "real_name": "Rajendra Prasad",
-                "real_name_normalized": "Rajendra Prasad",
-                "display_name": "",
-                "display_name_normalized": "",
+                "real_name": "Rajendra",
+                "real_name_normalized": "Rajendra",
+                "display_name": "Rajendra",
+                "display_name_normalized": "Rajendra",
                 "fields": null,
                 "status_text": "",
                 "status_emoji": "",
@@ -228,7 +430,7 @@
                 "status_expiration": 0,
                 "avatar_hash": "g990e4d8c8aa",
                 "first_name": "Rajendra",
-                "last_name": "Prasad",
+                "last_name": "",
                 "image_24": "https://secure.gravatar.com/avatar/990e4d8c8aab4beb20e727a8e2c3c5c5.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-24.png",
                 "image_32": "https://secure.gravatar.com/avatar/990e4d8c8aab4beb20e727a8e2c3c5c5.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-32.png",
                 "image_48": "https://secure.gravatar.com/avatar/990e4d8c8aab4beb20e727a8e2c3c5c5.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-48.png",
@@ -245,10 +447,9 @@
             "is_ultra_restricted": false,
             "is_bot": false,
             "is_app_user": false,
-            "updated": 1735893782,
-            "is_email_confirmed": false,
-            "who_can_share_contact_card": "EVERYONE",
-            "is_invited_user": true
+            "updated": 1736231583,
+            "is_email_confirmed": true,
+            "who_can_share_contact_card": "EVERYONE"
         },
         {
             "id": "U087JAZJXB3",
@@ -359,8 +560,8 @@
                 "skype": "",
                 "real_name": "Sarfaraz Ahmad",
                 "real_name_normalized": "Sarfaraz Ahmad",
-                "display_name": "",
-                "display_name_normalized": "",
+                "display_name": "Sarfaraz Ahmad",
+                "display_name_normalized": "Sarfaraz Ahmad",
                 "fields": null,
                 "status_text": "",
                 "status_emoji": "",
@@ -385,15 +586,14 @@
             "is_ultra_restricted": false,
             "is_bot": false,
             "is_app_user": false,
-            "updated": 1735893746,
-            "is_email_confirmed": false,
-            "who_can_share_contact_card": "EVERYONE",
-            "is_invited_user": true
+            "updated": 1736231540,
+            "is_email_confirmed": true,
+            "who_can_share_contact_card": "EVERYONE"
         }
     ],
-    "cache_ts": 1736225281,
+    "cache_ts": 1736942766,
     "response_metadata": {
         "next_cursor": ""
     }
 }
-21568 2025-01-07 10:18:01,893 my_logger  INFO  200
+46777 2025-01-15 17:36:06,415 my_logger  INFO  200
