@@ -25,7 +25,7 @@ logger.addHandler(file_handler)
 
 #define custom headers
 headers={
-    'Authorization':'Token token=u+Ne-ZLiR7pyx6DensLg',
+    'Authorization':'Token token',
     "Content-type": "application/json",
     "Accept":"application/json",
 
